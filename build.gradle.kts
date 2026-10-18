@@ -109,7 +109,7 @@ dependencies {
     // The client itself; there is no separate API artifact. Clients that still came with MCEF must not bring it
     // in a second time.
     implementation(libs.liquidbounce) {
-        exclude(group = "liquidflame.liquidflame", module = "mcef")
+        exclude(group = "net.ccbluex", module = "mcef")
     }
 
     // The client ships them
