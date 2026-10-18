@@ -9,4 +9,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "LiquidBounce-Addon-CEF"
+rootProject.name = "LiquidFlame-Addon-CEF"

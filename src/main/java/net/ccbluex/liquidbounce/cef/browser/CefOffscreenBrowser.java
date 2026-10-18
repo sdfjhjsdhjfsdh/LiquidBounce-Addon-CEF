@@ -19,14 +19,14 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
 import com.google.gson.JsonPrimitive;
 import com.mojang.blaze3d.platform.InputConstants;
-import net.ccbluex.liquidbounce.cef.CefRuntime;
-import net.ccbluex.liquidbounce.cef.CefPlatform;
-import net.ccbluex.liquidbounce.cef.cursor.CefCursorHelper;
-import net.ccbluex.liquidbounce.cef.listeners.CefCursorChangeListener;
+import net.liquidflame.liquidflame.cef.CefRuntime;
+import net.liquidflame.liquidflame.cef.CefPlatform;
+import net.liquidflame.liquidflame.cef.cursor.CefCursorHelper;
+import net.liquidflame.liquidflame.cef.listeners.CefCursorChangeListener;
 import net.minecraft.client.input.InputQuirks;
 import net.minecraft.client.input.KeyEvent;
 import net.minecraft.resources.Identifier;
@@ -49,7 +49,7 @@ import java.awt.*;
 import java.nio.ByteBuffer;
 import java.util.UUID;
 
-import static net.ccbluex.liquidbounce.cef.CefRuntime.mc;
+import static net.liquidflame.liquidflame.cef.CefRuntime.mc;
 
 /**
  * An instance of an "Off-screen rendered" Chromium web browser.

@@ -19,7 +19,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef;
+package net.liquidflame.liquidflame.cef;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import java.io.IOException;
@@ -30,7 +30,7 @@ import java.util.Locale;
 import java.util.Objects;
 import java.util.regex.Pattern;
 
-import net.ccbluex.liquidbounce.cef.utils.EglUtils;
+import net.liquidflame.liquidflame.cef.utils.EglUtils;
 import net.minecraft.util.Util;
 import org.jspecify.annotations.Nullable;
 import org.lwjgl.egl.EGL;

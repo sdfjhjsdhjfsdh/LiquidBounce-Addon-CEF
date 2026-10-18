@@ -1,15 +1,15 @@
-package net.ccbluex.liquidbounce.cef
+package net.liquidflame.liquidflame.cef
 
-import net.ccbluex.liquidbounce.cef.backend.AcceleratedPaint
-import net.ccbluex.liquidbounce.cef.backend.CefBrowserBackend
-import net.ccbluex.liquidbounce.cef.error.CefQuickFixes
-import net.ccbluex.liquidbounce.features.addon.LiquidBounceAddon
-import net.ccbluex.liquidbounce.integration.backend.BrowserBackendProvider
+import net.liquidflame.liquidflame.cef.backend.AcceleratedPaint
+import net.liquidflame.liquidflame.cef.backend.CefBrowserBackend
+import net.liquidflame.liquidflame.cef.error.CefQuickFixes
+import net.liquidflame.liquidflame.features.addon.LiquidFlameAddon
+import net.liquidflame.liquidflame.integration.backend.BrowserBackendProvider
 
 /**
- * Offers Chromium, through CEF, as the browser of the client's interface. LiquidBounce comes with it.
+ * Offers Chromium, through CEF, as the browser of the client's interface. LiquidFlame comes with it.
  */
-class CefAddon : LiquidBounceAddon() {
+class CefAddon : LiquidFlameAddon() {
 
     override fun onInitialize() {
         registerQuickFix(CefQuickFixes.JCEF_ISNT_COMPATIBLE_WITH_THAT_SYSTEM)
@@ -20,7 +20,7 @@ class CefAddon : LiquidBounceAddon() {
             BrowserBackendProvider(
                 "cef",
                 "Chromium",
-                "The browser LiquidBounce comes with (Chromium).",
+                "The browser LiquidFlame comes with (Chromium).",
                 create = ::CefBrowserBackend
             )
         )

@@ -1,4 +1,4 @@
-package net.ccbluex.liquidbounce.cef;
+package net.liquidflame.liquidflame.cef;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;

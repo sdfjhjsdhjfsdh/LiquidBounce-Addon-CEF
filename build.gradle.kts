@@ -15,7 +15,7 @@ base {
 
 repositories {
     mavenCentral()
-    // Lets you test against a locally built client (`./gradlew publishToMavenLocal` in LiquidBounce).
+    // Lets you test against a locally built client (`./gradlew publishToMavenLocal` in LiquidFlame).
     mavenLocal()
     maven {
         name = "CCBlueX Releases"
@@ -33,13 +33,13 @@ repositories {
 
 // `./gradlew runClientGameTest` starts the client with the add-on and runs src/gametest.
 loom {
-    accessWidenerPath = file("src/main/resources/liquidbounce-cef.accesswidener")
+    accessWidenerPath = file("src/main/resources/liquidflame-cef.accesswidener")
 }
 
 fabricApi {
     configureTests {
         createSourceSet = true
-        modId = "liquidbounce-cef-gametest"
+        modId = "liquidflame-cef-gametest"
         enableGameTests = false
     }
 }
@@ -93,12 +93,12 @@ val generateJcefCommit = tasks.register("generateJcefCommit") {
 
 // Two things to leave alone here:
 //
-// 1. There is no `mappings(...)` line. LiquidBounce declares none either, and Loom defaults to
+// 1. There is no `mappings(...)` line. LiquidFlame declares none either, and Loom defaults to
 //    Mojang official mappings for this Minecraft version. A different mapping set produces an
 //    add-on that compiles and then fails on every Minecraft call.
 // 2. Dependencies use plain `implementation`, not `modImplementation`. This Loom version has no
 //    remapping step - the development and production namespaces are both Mojang official - so the
-//    `mod*` configurations do not exist. LiquidBounce's own build does the same.
+//    `mod*` configurations do not exist. LiquidFlame's own build does the same.
 dependencies {
     minecraft(libs.minecraft)
 
@@ -109,7 +109,7 @@ dependencies {
     // The client itself; there is no separate API artifact. Clients that still came with MCEF must not bring it
     // in a second time.
     implementation(libs.liquidbounce) {
-        exclude(group = "net.ccbluex", module = "mcef")
+        exclude(group = "liquidflame.liquidflame", module = "mcef")
     }
 
     // The client ships them

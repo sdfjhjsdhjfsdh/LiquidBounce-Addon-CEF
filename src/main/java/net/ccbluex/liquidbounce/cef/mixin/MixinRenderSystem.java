@@ -1,10 +1,10 @@
-package net.ccbluex.liquidbounce.cef.mixin;
+package net.liquidflame.liquidflame.cef.mixin;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import net.ccbluex.liquidbounce.integration.backend.BrowserBackendManagerKt;
-import net.ccbluex.liquidbounce.cef.CefRuntime;
-import net.ccbluex.liquidbounce.cef.CefAccelerationSupport;
-import net.ccbluex.liquidbounce.cef.backend.AcceleratedPaintKt;
+import net.liquidflame.liquidflame.integration.backend.BrowserBackendManagerKt;
+import net.liquidflame.liquidflame.cef.CefRuntime;
+import net.liquidflame.liquidflame.cef.CefAccelerationSupport;
+import net.liquidflame.liquidflame.cef.backend.AcceleratedPaintKt;
 import net.minecraft.util.TimeSource;
 import org.lwjgl.sdl.SDLHints;
 import org.spongepowered.asm.mixin.Mixin;

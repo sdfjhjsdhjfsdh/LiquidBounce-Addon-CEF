@@ -19,7 +19,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef;
+package net.liquidflame.liquidflame.cef;
 
 import com.sun.jna.platform.win32.Advapi32Util;
 import com.sun.jna.platform.win32.WinReg;

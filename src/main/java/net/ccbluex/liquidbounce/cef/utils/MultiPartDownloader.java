@@ -18,11 +18,11 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.utils;
+package net.liquidflame.liquidflame.cef.utils;
 
-import net.ccbluex.liquidbounce.cef.MultiPartDownloadConfig;
-import net.ccbluex.liquidbounce.cef.listeners.CefNativesProgressListener;
-import net.ccbluex.liquidbounce.utils.io.PathExtKt;
+import net.liquidflame.liquidflame.cef.MultiPartDownloadConfig;
+import net.liquidflame.liquidflame.cef.listeners.CefNativesProgressListener;
+import net.liquidflame.liquidflame.utils.io.PathExtKt;
 import okhttp3.*;
 import org.jspecify.annotations.Nullable;
 import org.slf4j.Logger;

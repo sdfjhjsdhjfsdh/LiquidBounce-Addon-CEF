@@ -19,9 +19,9 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef;
+package net.liquidflame.liquidflame.cef;
 
-import net.ccbluex.liquidbounce.cef.browser.*;
+import net.liquidflame.liquidflame.cef.browser.*;
 import net.minecraft.client.Minecraft;
 import org.cef.browser.CefRequestContext;
 import org.jspecify.annotations.NullMarked;
@@ -42,7 +42,7 @@ public enum CefRuntime {
 
     INSTANCE;
 
-    public final Logger LOGGER = LoggerFactory.getLogger("LiquidBounce/CEF");
+    public final Logger LOGGER = LoggerFactory.getLogger("LiquidFlame/CEF");
     private @Nullable CefRuntimeSettings settings;
     private @Nullable CefAppWrapper app;
     private @Nullable CefClientWrapper client;

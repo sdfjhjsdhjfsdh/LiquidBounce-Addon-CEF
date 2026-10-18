@@ -1,7 +1,7 @@
-package net.ccbluex.liquidbounce.cef.download;
+package net.liquidflame.liquidflame.cef.download;
 
-import net.ccbluex.liquidbounce.cef.CefNativesManager;
-import net.ccbluex.liquidbounce.cef.CefPlatform;
+import net.liquidflame.liquidflame.cef.CefNativesManager;
+import net.liquidflame.liquidflame.cef.CefPlatform;
 
 import java.io.File;
 

@@ -19,7 +19,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef;
+package net.liquidflame.liquidflame.cef;
 
 import okhttp3.OkHttpClient;
 import org.jspecify.annotations.Nullable;
@@ -34,11 +34,11 @@ public class CefRuntimeSettings {
 
     private List<String> hosts = new ArrayList<>(Arrays.asList(
             // Cloudflare Certificate
-            "https://api.liquidbounce.net/api/v3/resource",
+            "https://api.liquidflame.net/api/v3/resource",
             // Let's Encrypt Certificate
             "https://api.ccbluex.net/api/v3/resource",
             // No SSL
-            "http://nossl.api.liquidbounce.net/api/v3/resource"
+            "http://nossl.api.liquidflame.net/api/v3/resource"
     ));
     private String userAgent = null;
     private List<String> cefSwitches = new ArrayList<>(Arrays.asList(

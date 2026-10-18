@@ -1,19 +1,19 @@
-package net.ccbluex.liquidbounce.cef.browser
+package net.liquidflame.liquidflame.cef.browser
 
-import net.ccbluex.liquidbounce.cef.CefRuntime
-import net.ccbluex.liquidbounce.cef.backend.AcceleratedPaint
-import net.ccbluex.liquidbounce.cef.backend.CefBrowserBackend
-import net.ccbluex.liquidbounce.features.module.MinecraftShortcuts
-import net.ccbluex.liquidbounce.integration.backend.BrowserTexture
-import net.ccbluex.liquidbounce.integration.backend.browser.Browser
-import net.ccbluex.liquidbounce.integration.backend.browser.BrowserRenderer
-import net.ccbluex.liquidbounce.integration.backend.browser.BrowserSettings
-import net.ccbluex.liquidbounce.integration.backend.browser.BrowserState
-import net.ccbluex.liquidbounce.integration.backend.browser.BrowserViewport
-import net.ccbluex.liquidbounce.integration.backend.browser.GlobalBrowserSettings
-import net.ccbluex.liquidbounce.integration.backend.input.InputAcceptor
-import net.ccbluex.liquidbounce.integration.backend.input.InputHandler
-import net.ccbluex.liquidbounce.integration.backend.input.InputListener
+import net.liquidflame.liquidflame.cef.CefRuntime
+import net.liquidflame.liquidflame.cef.backend.AcceleratedPaint
+import net.liquidflame.liquidflame.cef.backend.CefBrowserBackend
+import net.liquidflame.liquidflame.features.module.MinecraftShortcuts
+import net.liquidflame.liquidflame.integration.backend.BrowserTexture
+import net.liquidflame.liquidflame.integration.backend.browser.Browser
+import net.liquidflame.liquidflame.integration.backend.browser.BrowserRenderer
+import net.liquidflame.liquidflame.integration.backend.browser.BrowserSettings
+import net.liquidflame.liquidflame.integration.backend.browser.BrowserState
+import net.liquidflame.liquidflame.integration.backend.browser.BrowserViewport
+import net.liquidflame.liquidflame.integration.backend.browser.GlobalBrowserSettings
+import net.liquidflame.liquidflame.integration.backend.input.InputAcceptor
+import net.liquidflame.liquidflame.integration.backend.input.InputHandler
+import net.liquidflame.liquidflame.integration.backend.input.InputListener
 import org.apache.logging.log4j.LogManager
 import org.apache.logging.log4j.Logger
 import org.cef.browser.CefRequestContext
@@ -67,7 +67,7 @@ class CefBackedBrowser(
             }
         }
 
-        logger = LogManager.getLogger("LiquidBounce/CefBackedBrowser/${browserApi.hashCode()}")
+        logger = LogManager.getLogger("LiquidFlame/CefBackedBrowser/${browserApi.hashCode()}")
         logger.info("Initializing Browser API (url='$url')")
     }
 

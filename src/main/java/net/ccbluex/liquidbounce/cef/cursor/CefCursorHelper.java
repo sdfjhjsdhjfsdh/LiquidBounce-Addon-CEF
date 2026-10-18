@@ -19,7 +19,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.cursor;
+package net.liquidflame.liquidflame.cef.cursor;
 
 import com.mojang.blaze3d.platform.cursor.CursorType;
 import org.cef.misc.CefCursorType;

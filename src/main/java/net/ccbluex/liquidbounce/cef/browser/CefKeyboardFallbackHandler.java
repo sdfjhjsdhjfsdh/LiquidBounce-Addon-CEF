@@ -18,7 +18,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
 import org.cef.browser.CefBrowser;
 import org.cef.handler.CefKeyboardHandlerAdapter;

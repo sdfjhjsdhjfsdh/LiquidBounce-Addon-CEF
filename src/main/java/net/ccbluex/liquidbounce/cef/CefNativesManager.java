@@ -19,10 +19,10 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef;
+package net.liquidflame.liquidflame.cef;
 
-import net.ccbluex.liquidbounce.cef.download.CefProvidedNativesManager;
-import net.ccbluex.liquidbounce.cef.listeners.CefNativesProgressListener;
+import net.liquidflame.liquidflame.cef.download.CefProvidedNativesManager;
+import net.liquidflame.liquidflame.cef.listeners.CefNativesProgressListener;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.FileUtils;
 
@@ -33,15 +33,15 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 
-import static net.ccbluex.liquidbounce.cef.utils.FileUtils.downloadFile;
-import static net.ccbluex.liquidbounce.cef.utils.FileUtils.extractTarGz;
+import static net.liquidflame.liquidflame.cef.utils.FileUtils.downloadFile;
+import static net.liquidflame.liquidflame.cef.utils.FileUtils.extractTarGz;
 
 /**
  * A downloader and extraction tool for java-cef builds.
  * <p>
  * Downloads for <a href="https://github.com/CCBlueX/java-cef">CCBlueX java-cef</a> are provided by CCBlueX unless changed
  * in the CefRuntimeSettings properties file; see {@link CefRuntimeSettings}.
- * Email support@liquidbounce.net for any questions or concerns regarding the file hosting.
+ * Email support@liquidflame.net for any questions or concerns regarding the file hosting.
  */
 public class CefNativesManager {
 

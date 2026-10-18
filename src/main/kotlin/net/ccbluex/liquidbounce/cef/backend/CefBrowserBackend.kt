@@ -1,27 +1,27 @@
-package net.ccbluex.liquidbounce.cef.backend
+package net.liquidflame.liquidflame.cef.backend
 
-import net.ccbluex.liquidbounce.api.core.HttpClient
-import net.ccbluex.liquidbounce.api.interceptors.DefaultHeaderInterceptor
-import net.ccbluex.liquidbounce.cef.CefRuntime
-import net.ccbluex.liquidbounce.cef.browser.CefBackedBrowser
-import net.ccbluex.liquidbounce.cef.download.CefNativesProgressForwarder
-import net.ccbluex.liquidbounce.cef.download.HashValidator
-import net.ccbluex.liquidbounce.cef.error.CefQuickFixes
-import net.ccbluex.liquidbounce.cef.error.JcefIsntCompatible
-import net.ccbluex.liquidbounce.config.ConfigSystem
-import net.ccbluex.liquidbounce.event.EventListener
-import net.ccbluex.liquidbounce.integration.backend.BrowserBackend
-import net.ccbluex.liquidbounce.integration.backend.browser.BrowserSettings
-import net.ccbluex.liquidbounce.integration.backend.browser.BrowserState
-import net.ccbluex.liquidbounce.integration.backend.browser.BrowserViewport
-import net.ccbluex.liquidbounce.integration.backend.input.InputAcceptor
-import net.ccbluex.liquidbounce.integration.task.TaskManager
-import net.ccbluex.liquidbounce.utils.client.env
-import net.ccbluex.liquidbounce.utils.client.error.ErrorHandler
-import net.ccbluex.liquidbounce.utils.client.logger
-import net.ccbluex.liquidbounce.utils.client.mc
-import net.ccbluex.liquidbounce.utils.kotlin.sortedInsert
-import net.ccbluex.liquidbounce.utils.text.formatAsCapacity
+import net.liquidflame.liquidflame.api.core.HttpClient
+import net.liquidflame.liquidflame.api.interceptors.DefaultHeaderInterceptor
+import net.liquidflame.liquidflame.cef.CefRuntime
+import net.liquidflame.liquidflame.cef.browser.CefBackedBrowser
+import net.liquidflame.liquidflame.cef.download.CefNativesProgressForwarder
+import net.liquidflame.liquidflame.cef.download.HashValidator
+import net.liquidflame.liquidflame.cef.error.CefQuickFixes
+import net.liquidflame.liquidflame.cef.error.JcefIsntCompatible
+import net.liquidflame.liquidflame.config.ConfigSystem
+import net.liquidflame.liquidflame.event.EventListener
+import net.liquidflame.liquidflame.integration.backend.BrowserBackend
+import net.liquidflame.liquidflame.integration.backend.browser.BrowserSettings
+import net.liquidflame.liquidflame.integration.backend.browser.BrowserState
+import net.liquidflame.liquidflame.integration.backend.browser.BrowserViewport
+import net.liquidflame.liquidflame.integration.backend.input.InputAcceptor
+import net.liquidflame.liquidflame.integration.task.TaskManager
+import net.liquidflame.liquidflame.utils.client.env
+import net.liquidflame.liquidflame.utils.client.error.ErrorHandler
+import net.liquidflame.liquidflame.utils.client.logger
+import net.liquidflame.liquidflame.utils.client.mc
+import net.liquidflame.liquidflame.utils.kotlin.sortedInsert
+import net.liquidflame.liquidflame.utils.text.formatAsCapacity
 import org.cef.browser.CefBrowser
 import org.cef.browser.CefFrame
 import org.cef.handler.CefLifeSpanHandlerAdapter
@@ -49,7 +49,7 @@ class CefBrowserBackend : BrowserBackend, EventListener {
 
     private val cefFolder = ConfigSystem.rootFolder.resolve("mcef")
     // The game tests keep it outside the game directory, which they wipe before every run
-    private val librariesFolder = env("LB_BROWSER_LIBRARIES", "net.ccbluex.liquidbounce.browser.libraries")
+    private val librariesFolder = env("LB_BROWSER_LIBRARIES", "net.liquidflame.liquidflame.browser.libraries")
         ?.let(::File) ?: cefFolder.resolve("libraries")
     private val cacheFolder = cefFolder.resolve("cache")
 
@@ -111,7 +111,7 @@ class CefBrowserBackend : BrowserBackend, EventListener {
     /**
      * Cleans up old cache directories.
      *
-     * TODO: Check if we have an active PID using the cache directory, if so, check if the LiquidBounce
+     * TODO: Check if we have an active PID using the cache directory, if so, check if the LiquidFlame
      *   process attached to the JCEF PID is still running or not. If not, we could kill the JCEF process
      *   and clean up the cache directory.
      */

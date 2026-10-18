@@ -1,40 +1,40 @@
 {
   "schemaVersion": 1,
-  "id": "liquidbounce-cef",
+  "id": "liquidflame-cef",
   "version": "${version}",
-  "name": "LiquidBounce CEF",
-  "description": "Shows the client's menus with Chromium, through the Chromium Embedded Framework. LiquidBounce comes with it.",
+  "name": "LiquidFlame CEF",
+  "description": "Shows the client's menus with Chromium, through the Chromium Embedded Framework. LiquidFlame comes with it.",
   "authors": [
     "CCBlueX"
   ],
   "contact": {
-    "homepage": "https://liquidbounce.net/",
-    "sources": "https://github.com/CCBlueX/LiquidBounce-Addon-CEF",
-    "issues": "https://github.com/CCBlueX/LiquidBounce-Addon-CEF/issues"
+    "homepage": "https://liquidflame.net/",
+    "sources": "https://github.com/CCBlueX/LiquidFlame-Addon-CEF",
+    "issues": "https://github.com/CCBlueX/LiquidFlame-Addon-CEF/issues"
   },
   "license": "LGPL-2.1-or-later",
   "environment": "client",
   "entrypoints": {
-    "liquidbounce": [
-      "net.ccbluex.liquidbounce.cef.CefAddon"
+    "liquidflame": [
+      "net.liquidflame.liquidflame.cef.CefAddon"
     ]
   },
   "mixins": [
-    "liquidbounce-cef.mixins.json"
+    "liquidflame-cef.mixins.json"
   ],
-  "accessWidener": "liquidbounce-cef.accesswidener",
+  "accessWidener": "liquidflame-cef.accesswidener",
   "depends": {
     "minecraft": "~${minecraft_version}",
     "fabricloader": ">=${loader_version}",
     "fabric-language-kotlin": ">=${fabric_kotlin_version}",
-    "liquidbounce": "*"
+    "liquidflame": "*"
   },
   "custom": {
-    "liquidbounce": {
+    "liquidflame": {
       "color": "#4285F4"
     },
     "modmenu": {
-      "parent": "liquidbounce"
+      "parent": "liquidflame"
     }
   }
 }

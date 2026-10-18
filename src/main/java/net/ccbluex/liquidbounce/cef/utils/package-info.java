@@ -19,6 +19,6 @@
  */
 
 @NullMarked
-package net.ccbluex.liquidbounce.cef.utils;
+package net.liquidflame.liquidflame.cef.utils;
 
 import org.jspecify.annotations.NullMarked;

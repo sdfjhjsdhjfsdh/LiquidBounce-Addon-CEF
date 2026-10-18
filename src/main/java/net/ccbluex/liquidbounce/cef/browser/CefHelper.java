@@ -19,10 +19,10 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
-import net.ccbluex.liquidbounce.cef.CefRuntime;
-import net.ccbluex.liquidbounce.cef.CefPlatform;
+import net.liquidflame.liquidflame.cef.CefRuntime;
+import net.liquidflame.liquidflame.cef.CefPlatform;
 import org.cef.CefApp;
 import org.cef.CefClient;
 import org.cef.CefSettings;

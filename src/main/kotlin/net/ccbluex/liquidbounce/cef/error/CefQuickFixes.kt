@@ -1,7 +1,7 @@
-package net.ccbluex.liquidbounce.cef.error
+package net.liquidflame.liquidflame.cef.error
 
-import net.ccbluex.liquidbounce.utils.client.error.Instructions
-import net.ccbluex.liquidbounce.utils.client.error.QuickFix
+import net.liquidflame.liquidflame.utils.client.error.Instructions
+import net.liquidflame.liquidflame.utils.client.error.QuickFix
 
 object CefQuickFixes {
 
@@ -52,7 +52,7 @@ object CefQuickFixes {
                 "Install Windows Updates",
                 "Install DirectX End-User Runtime",
                 "Install C++ Redistributable for Visual Studio 2017–2026",
-                "Restart LiquidBounce and try again."
+                "Restart LiquidFlame and try again."
             )
         }
     )
@@ -71,7 +71,7 @@ object CefQuickFixes {
                 "Navigate to App & browser control.",
                 "Click on Smart App Control settings.",
                 "Set Smart App Control to 'Off' and confirm if asked.",
-                "Restart LiquidBounce and try again."
+                "Restart LiquidFlame and try again."
             )
         }
     )

@@ -1,7 +1,7 @@
-package net.ccbluex.liquidbounce.cef.download
+package net.liquidflame.liquidflame.cef.download
 
-import net.ccbluex.liquidbounce.integration.task.type.Task
-import net.ccbluex.liquidbounce.cef.listeners.CefNativesProgressListener
+import net.liquidflame.liquidflame.integration.task.type.Task
+import net.liquidflame.liquidflame.cef.listeners.CefNativesProgressListener
 
 class CefNativesProgressForwarder(val task: Task) : CefNativesProgressListener {
 

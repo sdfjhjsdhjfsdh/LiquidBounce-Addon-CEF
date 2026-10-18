@@ -18,13 +18,13 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.utils;
+package net.liquidflame.liquidflame.cef.utils;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.HttpServer;
-import net.ccbluex.liquidbounce.cef.MultiPartDownloadConfig;
-import net.ccbluex.liquidbounce.cef.listeners.CefNativesProgressListener;
+import net.liquidflame.liquidflame.cef.MultiPartDownloadConfig;
+import net.liquidflame.liquidflame.cef.listeners.CefNativesProgressListener;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;

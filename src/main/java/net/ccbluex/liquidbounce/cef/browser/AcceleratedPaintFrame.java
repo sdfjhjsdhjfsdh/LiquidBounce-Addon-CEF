@@ -9,7 +9,7 @@
  * version 2.1 of the License, or (at your option) any later version.
  */
 
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
 import com.mojang.renderpearl.api.textures.GpuTexture;
 import org.jspecify.annotations.NullMarked;

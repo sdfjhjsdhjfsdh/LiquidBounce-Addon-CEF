@@ -9,10 +9,10 @@
  * version 2.1 of the License, or (at your option) any later version.
  */
 
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
 import com.mojang.renderpearl.backend.opengl.GlStateManager;
-import net.ccbluex.liquidbounce.cef.CefRuntime;
+import net.liquidflame.liquidflame.cef.CefRuntime;
 import org.cef.handler.CefAcceleratedPaintInfo;
 import org.cef.handler.CefAcceleratedPaintInfoMac;
 import org.cef.handler.CefMacOsIOSurface;

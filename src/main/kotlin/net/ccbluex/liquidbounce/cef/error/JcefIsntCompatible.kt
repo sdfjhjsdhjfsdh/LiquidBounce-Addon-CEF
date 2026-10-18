@@ -1,6 +1,6 @@
-package net.ccbluex.liquidbounce.cef.error
+package net.liquidflame.liquidflame.cef.error
 
-import net.ccbluex.liquidbounce.utils.client.error.errors.ClientError
+import net.liquidflame.liquidflame.utils.client.error.errors.ClientError
 
 class JcefIsntCompatible : ClientError(
     message = "JCEF Isn't compatible",

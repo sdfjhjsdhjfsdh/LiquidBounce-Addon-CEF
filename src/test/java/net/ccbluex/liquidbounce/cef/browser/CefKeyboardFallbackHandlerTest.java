@@ -1,4 +1,4 @@
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
 import org.cef.handler.CefKeyboardHandler.CefKeyEvent;
 import org.cef.misc.BoolRef;

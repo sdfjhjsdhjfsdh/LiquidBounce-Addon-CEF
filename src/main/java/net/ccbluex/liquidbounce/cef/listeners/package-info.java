@@ -19,6 +19,6 @@
  */
 
 @NullMarked
-package net.ccbluex.liquidbounce.cef.listeners;
+package net.liquidflame.liquidflame.cef.listeners;
 
 import org.jspecify.annotations.NullMarked;

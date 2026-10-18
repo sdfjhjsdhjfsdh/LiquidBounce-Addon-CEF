@@ -1,23 +1,23 @@
-package net.ccbluex.liquidbounce.cef.backend
+package net.liquidflame.liquidflame.cef.backend
 
 import com.mojang.blaze3d.platform.InputConstants
-import net.ccbluex.liquidbounce.cef.CefAccelerationSupport
-import net.ccbluex.liquidbounce.cef.CefAccelerationSupport.Support
-import net.ccbluex.liquidbounce.config.types.list.Tagged
-import net.ccbluex.liquidbounce.event.EventListener
-import net.ccbluex.liquidbounce.event.events.KeyboardKeyEvent
-import net.ccbluex.liquidbounce.event.events.WindowTitleEvent
-import net.ccbluex.liquidbounce.event.handler
-import net.ccbluex.liquidbounce.integration.backend.BrowserBackendManager
-import net.ccbluex.liquidbounce.integration.backend.browser.GlobalBrowserSettings
-import net.ccbluex.liquidbounce.integration.screen.ScreenManager
-import net.ccbluex.liquidbounce.utils.client.env
-import net.ccbluex.liquidbounce.utils.client.inGame
-import net.ccbluex.liquidbounce.utils.client.logger
-import net.ccbluex.liquidbounce.utils.client.mc
+import net.liquidflame.liquidflame.cef.CefAccelerationSupport
+import net.liquidflame.liquidflame.cef.CefAccelerationSupport.Support
+import net.liquidflame.liquidflame.config.types.list.Tagged
+import net.liquidflame.liquidflame.event.EventListener
+import net.liquidflame.liquidflame.event.events.KeyboardKeyEvent
+import net.liquidflame.liquidflame.event.events.WindowTitleEvent
+import net.liquidflame.liquidflame.event.handler
+import net.liquidflame.liquidflame.integration.backend.BrowserBackendManager
+import net.liquidflame.liquidflame.integration.backend.browser.GlobalBrowserSettings
+import net.liquidflame.liquidflame.integration.screen.ScreenManager
+import net.liquidflame.liquidflame.utils.client.env
+import net.liquidflame.liquidflame.utils.client.inGame
+import net.liquidflame.liquidflame.utils.client.logger
+import net.liquidflame.liquidflame.utils.client.mc
 
 val isBrowserAccelerationDisabled = env("LB_BROWSER_DISABLE_ACCELERATION",
-    "net.ccbluex.liquidbounce.browser.disableAcceleration")?.toBoolean() ?: false
+    "net.liquidflame.liquidflame.browser.disableAcceleration")?.toBoolean() ?: false
 
 /**
  * Whether Chromium hands its frames over as GPU textures instead of pixels.

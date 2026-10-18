@@ -19,7 +19,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.listeners;
+package net.liquidflame.liquidflame.cef.listeners;
 
 @FunctionalInterface
 public interface CefCursorChangeListener {

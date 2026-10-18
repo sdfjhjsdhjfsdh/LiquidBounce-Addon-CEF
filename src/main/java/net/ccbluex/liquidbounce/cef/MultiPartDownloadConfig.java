@@ -18,7 +18,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef;
+package net.liquidflame.liquidflame.cef;
 
 /**
  * Controls HTTP range-based multipart downloads.

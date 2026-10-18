@@ -1,11 +1,11 @@
-package net.ccbluex.liquidbounce.cef.gametest
+package net.liquidflame.liquidflame.cef.gametest
 
 import com.mojang.blaze3d.platform.InputConstants
-import net.ccbluex.liquidbounce.cef.backend.CefBrowserBackend
-import net.ccbluex.liquidbounce.integration.backend.BrowserBackendManager
-import net.ccbluex.liquidbounce.integration.screen.CustomScreenType
-import net.ccbluex.liquidbounce.integration.screen.ScreenManager
-import net.ccbluex.liquidbounce.integration.theme.ThemeManager
+import net.liquidflame.liquidflame.cef.backend.CefBrowserBackend
+import net.liquidflame.liquidflame.integration.backend.BrowserBackendManager
+import net.liquidflame.liquidflame.integration.screen.CustomScreenType
+import net.liquidflame.liquidflame.integration.screen.ScreenManager
+import net.liquidflame.liquidflame.integration.theme.ThemeManager
 import net.fabricmc.fabric.api.client.gametest.v1.FabricClientGameTest
 import net.fabricmc.fabric.api.client.gametest.v1.context.ClientGameTestContext
 import net.minecraft.client.Minecraft

@@ -19,7 +19,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.renderpearl.api.GpuFormat;
@@ -31,7 +31,7 @@ import com.mojang.renderpearl.api.textures.GpuTexture;
 import com.mojang.renderpearl.api.textures.GpuTextureView;
 import com.mojang.renderpearl.backend.opengl.GlStateManager;
 import com.mojang.renderpearl.backend.opengl.GlTexture;
-import net.ccbluex.liquidbounce.cef.CefRuntime;
+import net.liquidflame.liquidflame.cef.CefRuntime;
 import net.minecraft.client.gui.render.TextureSetup;
 import net.minecraft.resources.Identifier;
 import org.cef.handler.CefAcceleratedPaintInfo;
@@ -45,7 +45,7 @@ import java.nio.ByteBuffer;
 import java.util.List;
 import java.util.UUID;
 
-import static net.ccbluex.liquidbounce.cef.CefRuntime.mc;
+import static net.liquidflame.liquidflame.cef.CefRuntime.mc;
 
 @NullMarked
 public class CefTextureRenderer implements Closeable {
@@ -78,7 +78,7 @@ public class CefTextureRenderer implements Closeable {
         this.transparent = transparent;
         // Generate a unique ResourceLocation for this renderer
         String uniqueId = UUID.randomUUID().toString().toLowerCase().replace("-", "");
-        this.identifier = Identifier.fromNamespaceAndPath("liquidbounce-cef", "browser_" + uniqueId);
+        this.identifier = Identifier.fromNamespaceAndPath("liquidflame-cef", "browser_" + uniqueId);
     }
 
     /**

@@ -19,13 +19,13 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.utils;
+package net.liquidflame.liquidflame.cef.utils;
 
 import com.google.common.base.Suppliers;
 import it.unimi.dsi.fastutil.io.FastBufferedOutputStream;
-import net.ccbluex.liquidbounce.api.core.OkHttpProgressInterceptor;
-import net.ccbluex.liquidbounce.cef.MultiPartDownloadConfig;
-import net.ccbluex.liquidbounce.cef.listeners.CefNativesProgressListener;
+import net.liquidflame.liquidflame.api.core.OkHttpProgressInterceptor;
+import net.liquidflame.liquidflame.cef.MultiPartDownloadConfig;
+import net.liquidflame.liquidflame.cef.listeners.CefNativesProgressListener;
 import okhttp3.HttpUrl;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;

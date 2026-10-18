@@ -1,6 +1,6 @@
-package net.ccbluex.liquidbounce.cef.utils;
+package net.liquidflame.liquidflame.cef.utils;
 
-import net.ccbluex.liquidbounce.cef.CefRuntime;
+import net.liquidflame.liquidflame.cef.CefRuntime;
 import org.jspecify.annotations.Nullable;
 import org.lwjgl.egl.EGL;
 import org.lwjgl.egl.EGL14;

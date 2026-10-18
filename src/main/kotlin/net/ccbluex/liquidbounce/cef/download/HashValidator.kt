@@ -1,8 +1,8 @@
-package net.ccbluex.liquidbounce.cef.download
+package net.liquidflame.liquidflame.cef.download
 
-import net.ccbluex.liquidbounce.LiquidBounce
-import net.ccbluex.liquidbounce.config.gson.util.readJson
-import net.ccbluex.liquidbounce.utils.client.logger
+import net.liquidflame.liquidflame.LiquidFlame
+import net.liquidflame.liquidflame.config.gson.util.readJson
+import net.liquidflame.liquidflame.utils.client.logger
 import net.minecraft.util.Util
 import org.apache.commons.codec.digest.DigestUtils
 import java.io.File
@@ -59,7 +59,7 @@ object HashValidator {
                 runCatching {
                     folderToDelete.deleteRecursively()
                 }.onFailure {
-                    LiquidBounce.logger.error("Failed to delete ${folderToDelete.absolutePath}.", it)
+                    LiquidFlame.logger.error("Failed to delete ${folderToDelete.absolutePath}.", it)
                 }
             })
         }

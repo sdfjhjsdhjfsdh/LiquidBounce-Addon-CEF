@@ -19,7 +19,7 @@
  * USA
  */
 
-package net.ccbluex.liquidbounce.cef.browser;
+package net.liquidflame.liquidflame.cef.browser;
 
 import org.lwjgl.egl.EXTImageDMABufImport;
 import org.lwjgl.egl.EXTImageDMABufImportModifiers;
